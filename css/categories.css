@@ -1,0 +1,22 @@
+.categories_title .fa-cog {
+    font-size: 2.3rem;
+}
+@media only screen and (max-width:992px) {
+    th {
+        font-size: 1rem;
+    }
+    td, td .btn {
+        font-size: 1rem;
+    }
+    .navigation_right {
+        display:none;
+    }
+}
+@media only screen and (max-width:365px) {
+    th {
+        font-size: 1rem;
+    }
+    td, td .btn {
+        font-size: .9rem;
+    }
+}

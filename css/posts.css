@@ -1,0 +1,34 @@
+.posts_title .fa-cog {
+    font-size: 2.3rem;
+}
+.Blaco {
+    background-color: #000 !important;
+    color: #fff;
+}
+.List_text div {
+    display: flex;
+    align-items: center;
+}
+.List_text p {
+    margin: 0;
+}
+@media only screen and (max-width:992px) {
+    th {
+        font-size: 1rem;
+    }
+    td, td .btn {
+        font-size: 1rem;
+    }
+    .navigation_right {
+        display:none;
+    }
+}
+
+@media only screen and (max-width:365px) {
+    th {
+        font-size: .8rem;
+    }
+    td, td .btn {
+        font-size: .7rem;
+    }
+}

@@ -1,0 +1,26 @@
+.users_title .fa-cog {
+    font-size: 2.3rem;
+}
+@media only screen and (max-width:992px) {
+    
+    .navigation_right {
+        display:none;
+    }
+    th {
+        font-size: .8rem;
+    }
+    td, td .btn {
+        font-size: .8rem;
+    }
+}
+@media only screen and (max-width:380px) {
+    th {
+        font-size: .6rem;
+    }
+    td, td .btn {
+        font-size: .6rem;
+    }
+    .pagination {
+        font-size: .6rem;
+    }
+}
